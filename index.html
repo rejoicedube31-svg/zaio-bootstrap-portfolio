@@ -1,138 +1,410 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Portfolio | Rejoice Dube</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+<head>
 
-    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+<title>Portfolio | Rejoice Dube</title>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body class="bg-dark">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    
-<div class="banner-wrap vh-100 vw-100 text-white">
- <div class="overlay"></div>
-  <header class="px-5 p-3 text-white">
-    <div>
-      <h3 class="float-md-start mb-0">Portfolio</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
     </div>
-  </header>
-  <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
-    <h1 class="display-1">I am Rejoice Dube</h1>
-    <p class="lead">Fullstack Developer, Coding instructor. Enterpreneur</p>
-  </main>
-</div>
+
+</nav>
+
+</header>
 
 
-<!-- 
-    
-LINKING LOCAL REPO TO GITHUB REPO
+<main id="main">
 
-Step: 1
-Create a Remote Repository on GitHub:
+<!-- HERO -->
 
-    Log in to your GitHub account.
-    Click the '+' button in the top-right corner and select "New Repository."
-    Enter a Repository Name, optional Description, choose Public or Private visibility, and any other desired settings.
-    Click "Create repository." 
-    
-Step: 2
-Open Your Command Line Interface (CLI):
-Open terminal inside your Visual Studio Code
+  <section id="home" class="banner-wrap">
 
-Step: 3
-Initialize Your Local Repository (if not already done):
-If your project isn't already a Git repository, initialize it by running:
-git init
+    <div class="overlay"></div>
 
-Step: 4
-Add and Commit Your Code: 
-Add your project files to the repository and make an initial commit:
-git add . 
-git comit -m "Added initial code"
+    <div class="hero-content text-center text-white">
 
-Step: 5
-Copy Remote Repository URL:
-    Go to your GitHub repository's page.
-    Copy the repository's URL.
-    Ex. git remote add origin https://github.com/username/git-repo.git
+      <h1 class="display-2">I am Rejoice Dube</h1>
 
-Step: 6
-Push Local Code to Remote Repository:
-Push your local code to the remote repository's master branch. 
-git push -u origin master    
+      <p class="lead">
+        Civil Engineer | Fullstack Developer | Vibe Coding Enthusiast | Entrepreneur
+      </p>
 
--->
+    </div>
 
-<!-- 
-
-SETTING UP BASIC CI_CD    
-  
-Step: 1
-Create a Netlify Account:
-If you don't have a Netlify account, sign up for one at https://app.netlify.com/signup.
-
-Step: 2
-Log in to Netlify:
-Once you have an account, log in to the Netlify dashboard. 
-
-Step: 3
-Click "Add New Site" Button:
-In the Netlify dashboard, click the "New Site" button. Further, click on 'Import an existing project'.
-
-Step: 4
-Choose Your Git Provider:
-Netlify supports various Git providers (GitHub, GitLab, Bitbucket). Choose the one where your project's repository is hosted.
-
-Step: 5
-Select Your Repository:
-Once authorized, select the repository containing your existing project.
-
-Step: 6
-Click on 'Deploy side'
-
-Step; 7 
-Run in terminal:
-git comit -am "write here what changes you made such as (modified title and nav-title)"
-
-Step: 8
-Run in terminal:
-git push
-
--->
+  </section>
 
 
-  </body>
+<!-- ABOUT SECTION -->
+
+  <section id="about" class="about-section">
+
+    <div class="container">
+
+      <div class="card about-card">
+
+      <div class="row">
+
+          <div class="col-md-4 p-4">
+
+            <img src="./assets/barner.jpeg" class="img-fluid rounded mb-3" alt="Rejoice Dube profile photo">
+
+            <ul class="list-unstyled">
+
+              <li><strong>Name:</strong> Rejoice Dube</li>
+              <li><strong>Profile:</strong> Fullstack Developer</li>
+              <li><strong>Phone:</strong> +27 73 810 8565</li>
+              <li><strong>Email:</strong> rejoicedube31@email.com</li>
+
+            </ul>
+
+            <h6 class="mt-4">Skills</h6>
+
+            <span class="badge bg-primary">HTML</span>
+            <span class="badge bg-secondary">CSS</span>
+            <span class="badge bg-success">Bootstrap</span>
+            <span class="badge bg-dark">Git</span>
+            <span class="badge bg-warning text-dark">JavaScript</span>
+
+          </div>
+
+
+          <div class="col-md-8 p-4">
+
+            <span class="section-label">About me</span>
+
+            <p class="mt-3">
+
+              I am a passionate fullstack developer who enjoys building responsive 
+              and accessible websites. My work focuses on clean design, usability and 
+              performance. I enjoy turning ideas into real digital products through 
+              modern web development tools.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- PROJECTS -->
+
+  <section id="projects" class="projects-section">
+
+      <div class="container">
+
+        <h2 class="text-center mb-5">Projects</h2>
+
+          <div class="row g-4">
+
+      <!-- Tesla -->
+
+            <div class="col-lg-4 col-md-6">
+
+              <div class="card project-card h-100">
+
+                <img src="tesla.jpg" class="card-img-top project-img" alt="Tesla website clone">
+
+                <div class="card-body d-flex flex-column">
+
+                  <h5>Tesla Website</h5>
+                  <small class="text-muted">Built with HTML and CSS</small>
+
+                  <div class="mt-auto pt-3">
+
+                  <a href="https://rejoicebukhosidube-cars.netlify.app/" class="btn btn-primary btn-sm">View Website</a>
+
+                  <a href="https://github.com/rejoicedube31-svg/MyTesla.git" class="btn btn-outline-dark btn-sm">
+                  <i class="bi bi-code-slash"></i>
+                  </a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+      <!-- Netflix -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card project-card h-100">
+
+          <img src="netflix.jpg" class="card-img-top project-img" alt="Netflix clone">
+
+          <div class="card-body d-flex flex-column">
+
+            <h5>Netflix Clone</h5>
+            <small class="text-muted">HTML and CSS</small>
+
+            <div class="mt-auto pt-3">
+
+              <a href="https://streamernetflclone.netlify.app/" class="btn btn-primary btn-sm">View Website</a>
+
+              <a href="https://github.com/rejoicedube31-svg/netflix-clone.git" class="btn btn-outline-dark btn-sm">
+                <i class="bi bi-code-slash"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    <!-- YouTube -->
+
+    <div class="col-lg-4 col-md-6">
+
+      <div class="card project-card h-100">
+
+        <img src="youtube.jpg" class="card-img-top project-img" alt="YouTube clone">
+
+        <div class="card-body d-flex flex-column">
+
+          <h5>YouTube Clone</h5>
+          <small class="text-muted">HTML CSS Bootstrap</small>
+
+          <div class="mt-auto pt-3">
+
+            <a href="https://rejoicedube-youtube-clone.netlify.app/" class="btn btn-primary btn-sm">View Website</a>
+
+            <a href="https://github.com/rejoicedube31-svg/youtube-clone.git" class="btn btn-outline-dark btn-sm">
+              <i class="bi bi-code-slash"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <!-- Project 4 -->
+
+    <div class="col-lg-4 col-md-6">
+
+      <div class="card project-card h-100">
+
+        <img src="project4.jpg" class="card-img-top project-img" alt="Restaurant website">
+
+        <div class="card-body d-flex flex-column">
+
+          <h5>Holiday Checker</h5>
+          <small class="text-muted">Bootstrap layout</small>
+
+          <div class="mt-auto pt-3">
+
+            <a href="#" class="btn btn-primary btn-sm">View Website</a>
+
+            <a href="#" class="btn btn-outline-dark btn-sm">
+              <i class="bi bi-code-slash"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <!-- Project 5 -->
+
+    <div class="col-lg-4 col-md-6">
+
+      <div class="card project-card h-100">
+
+        <img src="project5.jpg" class="card-img-top project-img" alt="Portfolio website">
+
+        <div class="card-body d-flex flex-column">
+
+          <h5>Portfolio Website</h5>
+          <small class="text-muted">Bootstrap 5</small>
+
+          <div class="mt-auto pt-3">
+
+            <a href="#" class="btn btn-primary btn-sm">View Website</a>
+
+            <a href="#" class="btn btn-outline-dark btn-sm">
+              <i class="bi bi-code-slash"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <!-- Project 6 -->
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card project-card h-100">
+
+          <img src="project6.jpg" class="card-img-top project-img" alt="Ecommerce UI">
+
+          <div class="card-body d-flex flex-column">
+
+            <h5>Ecommerce UI</h5>
+            <small class="text-muted">Responsive design</small>
+
+            <div class="mt-auto pt-3">
+
+              <a href="#" class="btn btn-primary btn-sm">View Website</a>
+
+              <a href="#" class="btn btn-outline-dark btn-sm">
+                <i class="bi bi-code-slash"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact-section">
+
+    <div class="container text-center">
+
+      <span class="section-label">Let's connect</span>
+
+      <p class="mt-3">
+        Feel free to reach out for collaborations or web development projects.
+      </p>
+
+      <div class="social-icons mb-4">
+
+        <a href="#"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+
+      </div>
+
+
+      <form class="contact-form">
+
+      <div class="row">
+
+        <div class="col-md-6 mb-3">
+
+          <label>Email Address</label>
+          <input type="email" class="form-control" required>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+        <label>Name</label>
+        <input type="text" class="form-control" required>
+
+        </div>
+
+      </div>
+
+      <div class="mb-3">
+
+        <label>Subject</label>
+        <input type="text" class="form-control" required>
+
+      </div>
+
+      <div class="mb-3">
+
+        <label>Message</label>
+        <textarea class="form-control" rows="4" required></textarea>
+
+      </div>
+
+      <button class="btn btn-primary">Submit</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer class="footer text-center">
+
+<p>
+Developed by Rejoice Dube using Bootstrap, for portfolio purposes.
+</p>
+
+</footer>
+
+</body>
+
 </html>
+2️⃣
